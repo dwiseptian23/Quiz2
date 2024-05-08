@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="RENTAL PS GACOR"
+        android:background="#FFEB3B"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="#FFEB3B"
+        android:text="//WELCOME//"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TYPE :"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"/>
+        <TableRow
+            android:id="@+id/btnps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/ps3"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PS 3"/>
+            <RadioButton
+                android:id="@+id/ps4"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PS 4"/>
+            <RadioButton
+                android:id="@+id/ps5"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PS 5"/>
+            <RadioButton
+                android:id="@+id/psvr"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PS VR"/>
+        </TableRow>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAHAN :"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"/>
+    <TableRow
+        android:id="@+id/btnmkn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/mkn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indomie" />
+        <RadioButton
+            android:id="@+id/mkn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mie Ayam" />
+        <RadioButton
+            android:id="@+id/mkn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siomay" />
+    </TableRow>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WAKTU :"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/wktumain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="jam?"/>
+    <Button
+        android:id="@+id/psn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="PESAN"/>
+</LinearLayout>
